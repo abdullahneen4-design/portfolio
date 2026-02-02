@@ -3,6 +3,8 @@ import profile from "./assets/profile.jpg";
 import helpdeskImg from "./assets/projects/helpdesk.png";
 import coachfyImg from "./assets/projects/coachfy.png";
 import aiImg from "./assets/projects/ai-support.png";
+import devopsImg from "./assets/projects/n8n-workflow.png";
+
 
 
 export default function App() {
@@ -155,6 +157,19 @@ export default function App() {
       </p>
       <span>FastAPI • React • Ollama • Llama 3 • REST API</span>
     </div>
+    <div className="project-card highlight">
+  <img src={devopsImg} alt="DevOps Automation Platform" />
+  <h4>DevOps Automation Platform</h4>
+  <p>
+    End-to-end DevOps automation platform featuring CI/CD pipelines,
+    containerized services, and workflow automation using n8n.
+    Designed to simulate real production environments.
+  </p>
+  <span>
+    Docker • Docker Compose • GitHub Actions • Node.js • Express • SQLite • n8n • CI/CD
+  </span>
+</div>
+
 
   </div>
 </section>
